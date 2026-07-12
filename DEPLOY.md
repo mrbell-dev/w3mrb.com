@@ -23,13 +23,25 @@ Environment variables:
 
 | Name | Value |
 |---|---|
-| `HUGO_VERSION` | `0.164.0` |
+| `HUGO_VERSION` | `0.146.5` |
 | `HUGO_ENVIRONMENT` | `production` |
 | `NODE_VERSION` | `22` |
+
+**Pin `HUGO_VERSION=0.146.5`** — the theme (HBS v1.13.3) uses `site.Author`,
+which newer Hugo (0.164) removed. 0.146.5 is the version the theme is built
+against.
 
 `HUGO_ENVIRONMENT=production` is what turns on purgecss (drops unused Bootstrap
 CSS). Hugo fetches the theme module automatically during the build; if it
 complains about Go, add `GO_VERSION=1.22`.
+
+This repo ships its own root `postcss.config.js` / `purgecss.config.js`
+(overriding the theme's) so autoprefixer's browserslist lookup stays inside the
+project — required for the build to run under Hugo's Node permission model.
+Keep them in sync if the theme's change.
+
+Local dev needs Hugo Extended **0.146.5** (not 0.164). Grab that binary or use
+Cloudflare preview deploys.
 
 ## Custom domain
 

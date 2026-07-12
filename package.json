@@ -62,7 +62,6 @@
     "workbox-routing": "^6.4.2",
     "workbox-strategies": "^6.4.2"
   },
-  "devDependencies": {},
   "name": "hugo-theme-bootstrap-skeleton",
   "version": "0.1.0"
 }

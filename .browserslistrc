@@ -1,0 +1,6 @@
+# Keeps browserslist/autoprefixer from walking above the project root
+# (Hugo runs PostCSS under Node's permission model scoped to this dir).
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
