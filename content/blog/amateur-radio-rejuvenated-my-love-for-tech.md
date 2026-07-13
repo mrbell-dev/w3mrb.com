@@ -1,5 +1,6 @@
 ---
 title: "My Amateur Radio License Rejuvenated My Love for Tech — And Why You Should Get One Too"
+slug: "amateur-radio-love-for-tech"
 date: 2025-08-16T16:41:00-04:00
 featured: true
 draft: false

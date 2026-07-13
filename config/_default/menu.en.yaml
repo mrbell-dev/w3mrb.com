@@ -1,6 +1,20 @@
 main:
-  - name: Documentations
-    identifier: documentations
-    url: https://hbs.razonyang.com/v1/en/docs/
+  - name: About
+    identifier: about
+    url: /about/
+    weight: 20
     params:
-      icon: '<i class="fas fa-fw fa-book"></i>'
+      icon: '<i class="fas fa-fw fa-user"></i>'
+  - name: Contact
+    identifier: contact
+    url: /contact/
+    weight: 30
+    params:
+      icon: '<i class="fas fa-fw fa-envelope"></i>'
+  - name: mrbell.dev
+    identifier: hub
+    url: https://mrbell.dev
+    weight: 40
+    params:
+      icon: '<i class="fas fa-fw fa-arrow-up-right-from-square"></i>'
+      newTab: true
