@@ -1,7 +1,7 @@
 ---
 title: "Killing the Club WordPress: A Lift-and-Shift Ham Site Anyone Can Run"
 slug: "club-website-hugo"
-date: 2026-07-14T09:00:00-04:00
+date: 2026-07-14T07:00:00-04:00
 featured: false
 draft: false
 comment: true
